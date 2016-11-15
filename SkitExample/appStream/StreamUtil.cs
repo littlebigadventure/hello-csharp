@@ -18,5 +18,14 @@ namespace appStream
                 output.Write(buffer, 0, read);
             }
         }
+        public static byte[] ReadFully(Stream input)
+        {
+            using(MemoryStream tempStream = new MemoryStream())
+            {
+                Copy(input, tempStream);
+                return tempStream.ToArray();
+            }
+
+        }
     }
 }

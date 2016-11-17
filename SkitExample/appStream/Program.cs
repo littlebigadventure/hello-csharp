@@ -42,9 +42,20 @@ namespace appStream
                 Console.WriteLine("sqrt({0}) = {1}",element.Original, element.SquareRoot);
             }
         }
+        static void DemoSquare()
+        {
+            var collection = Enumerable.Range(-5, 11)
+                .Select(x => new { Original = x, Square = x * x })
+                .OrderBy(x => x.Square)
+                .ThenBy(x => x.Original);
+            foreach(var element in collection)
+            {
+                Console.WriteLine(element);
+            }
+        }
         static void Main(string[] args)
         {
-            DemoSqrt();
+            DemoSquare();
             Console.ReadLine();
         }
     }

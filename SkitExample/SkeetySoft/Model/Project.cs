@@ -7,15 +7,11 @@ namespace SkeetySoft.Model
 {
     public class Project
     {
-        public int Name
+        public string Name { get; set; }
+
+        public override string ToString()
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            return string.Format("Project: {0}", Name);
         }
     }
 }

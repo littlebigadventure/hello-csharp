@@ -10,6 +10,8 @@ namespace SkeetySoft
     {
         static void Main(string[] args)
         {
+            Queries.QuarySelect.SimpleSelect();
+            Console.ReadLine();
         }
     }
 }

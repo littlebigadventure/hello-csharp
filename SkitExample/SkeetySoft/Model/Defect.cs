@@ -14,7 +14,18 @@ namespace SkeetySoft.Model
         public Status Status { get; set; }
         public DateTime Created { get; set; }
         public DateTime LastModified { get; set; }
+        public User CreatedBy { get; set; }
         public int ID { get; private set; }
-            
+        public Defect()
+        {
+            ID = Sequences.Next();
+        }
+        public override string ToString()
+        {
+            return string.Format("{0,2}: {1}\r\n    ({2:d}-{3:d}, {4}/{5}, {6} -> {7})",
+                 ID, Summary, Created, LastModified, Severity, Status, CreatedBy.Name,
+                 AssignedTo == null ? "n/a" : AssignedTo.Name);
+        }
+
     }
 }

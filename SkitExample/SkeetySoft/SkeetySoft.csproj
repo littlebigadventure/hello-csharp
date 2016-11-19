@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Defect.cs" />
+    <Compile Include="Model\NotificationSubscription.cs" />
+    <Compile Include="Model\SampleData.cs" />
+    <Compile Include="Model\Sequences.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Model\Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -49,11 +52,13 @@
     <Compile Include="Model\Status.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Model\UserType.cs" />
+    <Compile Include="Queries\QuarySelect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Model\Model.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

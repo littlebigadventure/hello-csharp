@@ -7,9 +7,17 @@ namespace SkeetySoft.Model
 {
     public class User
     {
-        public int Name
+        public string Name { get; set; }
+        public UserType UserType { get; set; }
+
+        public User (string name, UserType userType)
         {
-            get; set;   
+            Name = name;
+            UserType = userType;
+        }
+        public override string ToString()
+        {
+            return string.Format("User: {0} ({1})", Name, UserType);
         }
     }
 }

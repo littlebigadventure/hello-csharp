@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appStream", "appStream\appS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkeetySoft", "SkeetySoft\SkeetySoft.csproj", "{2A7ACC1E-20D6-4702-BBA2-CAA9F47AE8FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appAsync", "appAsync\appAsync.csproj", "{C08B35DF-DBC1-43B1-A8AF-FD84F8446101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{06BBA934-C6DA-47D6-9148-E7EE38EAB691}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{2A7ACC1E-20D6-4702-BBA2-CAA9F47AE8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A7ACC1E-20D6-4702-BBA2-CAA9F47AE8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A7ACC1E-20D6-4702-BBA2-CAA9F47AE8FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08B35DF-DBC1-43B1-A8AF-FD84F8446101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08B35DF-DBC1-43B1-A8AF-FD84F8446101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08B35DF-DBC1-43B1-A8AF-FD84F8446101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08B35DF-DBC1-43B1-A8AF-FD84F8446101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06BBA934-C6DA-47D6-9148-E7EE38EAB691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06BBA934-C6DA-47D6-9148-E7EE38EAB691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06BBA934-C6DA-47D6-9148-E7EE38EAB691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06BBA934-C6DA-47D6-9148-E7EE38EAB691}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

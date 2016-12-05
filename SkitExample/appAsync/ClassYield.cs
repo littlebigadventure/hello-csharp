@@ -9,11 +9,6 @@ namespace appAsync
     
     class ClassYield
     {
-        static void Main()
-        {
-            Task<int> task = SumCharactersAsync("test");
-            Console.WriteLine(task.Result);
-        }
 
         static async Task<int> SumCharactersAsync(IEnumerable<char> text)
         {

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appAsync", "appAsync\appAsy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{06BBA934-C6DA-47D6-9148-E7EE38EAB691}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTools", "EssentialTools\EssentialTools.csproj", "{C1C0C0EE-89C2-488C-90CA-A8204390FF1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{06BBA934-C6DA-47D6-9148-E7EE38EAB691}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06BBA934-C6DA-47D6-9148-E7EE38EAB691}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06BBA934-C6DA-47D6-9148-E7EE38EAB691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C0C0EE-89C2-488C-90CA-A8204390FF1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C0C0EE-89C2-488C-90CA-A8204390FF1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C0C0EE-89C2-488C-90CA-A8204390FF1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C0C0EE-89C2-488C-90CA-A8204390FF1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

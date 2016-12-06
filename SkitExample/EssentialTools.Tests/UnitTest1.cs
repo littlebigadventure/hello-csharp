@@ -13,9 +13,10 @@ namespace EssentialTools.Tests
     [TestClass]
     public class UnitTest1
     {
+         
         private IDiscountHelper getTestObject()
         {
-
+            
             return new MinimumDiscountHelper();
         }
         /// <summary>
